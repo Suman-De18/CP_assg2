@@ -33,10 +33,8 @@ for i in range(n_steps):
     t_values[i + 1] = t + h
     y_values[i + 1] = y_next
     
-    # Calculate exact solution for error calculation
     exact_solution = t_values[i + 1] / (1 + np.log(t_values[i + 1]))
     
-    # Calculate absolute and relative errors
     absolute_errors[i + 1] = np.abs(y_next - exact_solution)
     relative_errors[i + 1] = absolute_errors[i + 1] / np.abs(exact_solution)
 
