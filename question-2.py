@@ -1,8 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-
-
 # Initial condition
 t0 = 1
 y0 = 1
