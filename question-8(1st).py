@@ -9,7 +9,6 @@ def fun(t, y):
 # Define the initial condition
 y0 = [0]
 
-
 t_span = [0, 1]
 
 # Solve the differential equation
